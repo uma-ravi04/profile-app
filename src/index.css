@@ -1,0 +1,83 @@
+.side-header {
+  margin: 15px 0px 15px 0px;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between; 
+  padding: 10px; 
+}
+
+.side-header img{
+  height: 70%;
+  width: 70%;
+}
+
+.list-text{
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;  
+}
+
+.text{
+  color: #837c7c;
+}
+
+.card-div{
+  padding: 5px;
+  margin-top: 1.2rem;
+}
+
+.card{
+  margin-top: 1rem;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.profile-view{
+  min-width: 325px;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+.profile-pic{
+   display: flex;
+  height: 50px;  
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom:15px;
+}
+
+.spacing{
+  margin-top: 15px;
+  margin-left: 5px;
+  font-size:12px;
+  line-height: 1.5;
+}
+
+.align-text{
+  text-align: center;
+  font-size:14px;
+}
+
+.img-src{
+  height:40px;
+  width:40px
+}
+
+.select{
+  display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.select.svg{
+  margin-top: 15px;
+}
